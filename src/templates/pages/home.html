@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<div class="container">
+	<section>
+		<img src="{% static 'images/python.jpg' %}" class="server">
+
+		<h1>Web Server of Python</h1>
+
+		<p class="subhead">Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse.</p>
+	</section>
+</div>
+
+<div class="blue-container">
+	<div class="container">
+		<h3>Social Accounts</h3>
+
+		<ul>
+			<li>
+				<a href="#"><img src="{% static 'images/email.png' %}"></a>
+				<p>Reach out to me on my gmail account</p>
+			</li>
+			<li>
+				<a href="#"><img src="{% static 'images/instagram.png' %}"></a>
+				<p>Click on my instagram link for taking a look at my recent activities</p>
+			</li>
+			<li>
+				<a href="#"><img src="{% static 'images/facebook.png' %}"></a>
+				<p>Visit my facebook account to get an overview of my background and personality</p>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="grey-container">
+	<div class="container">
+		<figure>
+			<img src="{% static 'images/talha.jpg' %}"" width="120" height="auto" class="profile">
+			<blockquote>I may not be perfect, but I believe in the fact that in order to make yourself perfect you have to obtain the knowledge of the world. Just as Warren Buffet said: "The more you learn the more you earn". I have always followed this moto and always will!</blockquote>
+			<figcaption>- Talha Mirza</figcaption>
+		</figure>
+	</div>
+</div>
+<div class="extra">
+	<div class="container">
+		<h2>Like what you're seeing?</h2>
+
+		<a href="#" class="cta">Call Now</a>
+	</div>
+</div>
+
+<footer>
+	<div class="footer-container">
+		<div class="container">
+			<a href="../" class="nav-brand">Talha Mirza</a>
+			<p class="address">Revere, 02151<br>USA</p>
+		</div>
+	</div>
+</footer>
+{% endblock %}
